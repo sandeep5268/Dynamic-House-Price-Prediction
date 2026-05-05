@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn==1.8.0
+matplotlib
+seaborn
+fastapi
+uvicorn
+joblib
+jupyter
+notebook
+python-multipart
+xgboost 

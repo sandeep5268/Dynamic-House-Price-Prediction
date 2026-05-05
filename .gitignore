@@ -1,0 +1,68 @@
+# Virtual environments
+.venv/
+
+# compiled python files
+__pycache__/
+*.pyc
+
+# Serialized models
+experiments/*.csv
+*.pkl
+
+# Python package metadata
+*.egg-info/
+
+# Datasets
+data/raw/
+data/processed/
+
+# Execution Logs
+*.log
+
+
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*
+
+# Pytest and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+
+# OS-generated files specific to OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Other IDEs and editors
+.idea/
+*.swp
+*.swo
+
+# Build and distribution directories
+build/
+dist/
+*.egg
+
+# Type checking
+.mypy_cache/
+
+# Additional ML model extensions
+*.h5
+*.joblib
+*.pt
+*.pth
+
+# MLFlow runs
+mlruns/

@@ -1,0 +1,4 @@
+Best Model       : ElasticNet
+R2 Score         : 0.9112
+RMSE Score       : 0.1184
+MAE Score        : 0.0841
