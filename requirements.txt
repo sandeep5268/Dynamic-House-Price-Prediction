@@ -1,6 +1,6 @@
 pandas
 numpy
-scikit-learn==1.8.0
+scikit-learn
 matplotlib
 seaborn
 fastapi
@@ -9,4 +9,4 @@ joblib
 jupyter
 notebook
 python-multipart
-xgboost 
+xgboost

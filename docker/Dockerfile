@@ -5,11 +5,12 @@ FROM python:3.12
 WORKDIR /app
 
 # Copy requirements file
-COPY requirements*.txt .
+COPY requirements.txt .
+COPY requirements_dev.txt .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
-
+RUN pip install --no-cache-dir -r requirements_dev.txt
 # Copy project files
 COPY . .
 
